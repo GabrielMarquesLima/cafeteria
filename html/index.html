@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <!-- meta responsável por ajustar a página para o dispositivo em questão -->
+        <meta name="viewport" content="width=devide-width, initial-scale=1.0">
+        <title>Coffe Day</title>
+        <link rel="stylesheet" href="/css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@200&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="header">
+            <a href="#" class="abrir-menu" onclick="abrir();"> &equiv; </a>
+            <div id="superior">
+                <a href="layout.html">
+               <h1>Coffe Day</h1>
+                </a>
+                <!-- a tag nav é usada para fazer barras de navegação -->
+                <nav>
+                    <a href="#" class="fechar-menu" onclick="fechar();"> &times; </a>
+                    <ul>
+                        <!-- href é o nome do arquivo que deve ser aberto -->
+                        <li><a href="index.html" target="_blank">home</a></li>
+                        <li><a href="menu.html" target="_blank">menu</a></li>
+                        <li><a href="quemsomos.html" target="_blank">quem somos</a></li>
+                        <li><a href="localizacao.html" target="_blank">localização</a></li>
+                        <li><a href="contato.html" target="_blank">contato</a></li>
+                    </ul>
+                </nav>
+            
+                <div id="bottomWhatsapp">
+                    <a href="https://wa.me/5511985284756?text=Bem+vindo%21%21%21" target="_blank">Faça seu pedido</a>
+                </div> 
+            </div>
+            <h2>Venha nos conhecer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis cupiditate accusantium repudiandae iste, temporibus magnam quibusdam aliquid aperiam dolore, illo ipsa, ad cumque mollitia ipsam. Nisi ex dolor accusantium debitis.</p>
+        </div>
+    </header>
+     
+    <main>
+
+        <h2>Seja Bem Vindo a Nossa Cafeteria!</h2>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illo praesentium, fuga alias temporibus, natus reiciendis labore fugit consequatur quod consectetur dolore, ab dicta blanditiis aliquid porro. Doloremque, dolore beatae.</span><span>Rem doloribus quam atque ad voluptatum blanditiis cupiditate quibusdam non praesentium quaerat, iure sed libero necessitatibus asperiores itaque. Quam vel ea enim quos molestias totam fugiat, distinctio repudiandae aperiam nesciunt!</span><span>Unde quo sunt at odit eum, voluptatibus ab, saepe accusantium, ea beatae nihil! Aspernatur illum eos veritatis necessitatibus atque ratione tenetur officiis debitis aut velit doloremque, iste quaerat, placeat fuga!</span></p>
+        <p><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span></p>
+        <div id="imgHome">
+            <img src="/img/bebida2.jpg" alt="bebida">
+            <img src="/img/bolo2.jpg" alt="bolo">
+            <img src="/img/suco3.jpg" alt="sucos">
+            <img src="/img/sobremesa11.jpg" alt="sobremesa  ">
+        </div>
+
+    </main>
+
+
+    <!-- footer é a tag responsável pelo rodapé da página-->
+    <hr>
+    <footer>
+        <div id="location">
+            <p>Rua Marina la Regina, 227 - Centro - Poá - São Paulo</p>
+            <p>Tel.: 11 - 96485-6299 | 11 - 95386-0012</p>
+        </div>
+
+        <div id="redes">
+            <nav>
+                <ul>
+                    <!-- target é a forma de fazer o navegador abrir uma nova aba com o link desejado na tag -->
+                    <li><a href="http://www.facebook.com" target="_blank"> <img src="/img/facebook.png" alt="Facebook logo"> </a></li>
+                    <li><a href="http://www.twitter.com" target="_blank"> <img src="/img/twitter.png" alt="Twitter logo"> </a></li>
+                    <li><a href="http://www.instagram.com" target="_blank"> <img src="/img/instagram.png" alt="Instagram logo"></a></li>
+                </ul>
+            </nav>
+        </div>
+    
+    </footer>
+
+    <Script>
+        function abrir (){
+            document.getElementsByTagName("nav")[0].style.left="0vw";
+        }
+
+        function fechar (){
+            document.getElementsByTagName("nav")[0].style.left="-30vw";
+        }
+    </Script>
+</body>
+</html>
